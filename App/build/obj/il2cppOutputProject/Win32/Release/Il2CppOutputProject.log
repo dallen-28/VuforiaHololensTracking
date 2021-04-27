@@ -1,0 +1,15 @@
+﻿  Building GameAssembly.dll with MsvcWinRtToolChain
+  	Msvc Install Version: 15.0
+  	Msvc Install SDK Directory: C:\Program Files (x86)\Windows Kits\10
+  	Msvc Linker Path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x86\link.exe
+  	Msvc Compiler Path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x86\cl.exe
+  
+  	Output directory: C:\d\UnityProjects\VuforiaHololensTracking\App\build\bin\Win32\Release
+  	Cache directory: C:\d\UnityProjects\VuforiaHololensTracking\App\build\obj\il2cppOutputProject\Win32\Release
+  SamplesScripts.cpp
+  ObjectFiles: 448 of which compiled: 1
+  	Time Compile: 801 milliseconds SamplesScripts.cpp
+  Total compilation time: 1432 milliseconds.
+  Creating library C:\d\UnityProjects\VuforiaHololensTracking\App\build\obj\il2cppOutputProject\Win32\Release\linkresult_580D18FD07386D484852EA78CC12C121\GameAssembly.lib and object C:\d\UnityProjects\VuforiaHololensTracking\App\build\obj\il2cppOutputProject\Win32\Release\linkresult_580D18FD07386D484852EA78CC12C121\GameAssembly.exp
+  Total link time: 6639 milliseconds.
+  Cleaned up 3 object files.

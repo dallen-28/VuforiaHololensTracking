@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PETERGRP30</Machine>
+    <WindowsUser>dallen28</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|Win32</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>19c4c447-31b7-4d73-a369-a91e0690e159</PackageIdentityName>
+    <PackageIdentityPublisher>CN=DefaultCompany</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\d\UnityProjects\VuforiaHololensTracking\App\build\obj\VuforiaHololensTracking\Win32\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\d\UnityProjects\VuforiaHololensTracking\App\build\bin\Win32\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>2D0E93802EE565D92B9280D055EB9BCBEC4F551E941F27288E5BB1EBD416A59B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>Vuforia.Engine.VuforiaHoloLensMRTK_9.8.5.0_x86__pzq3xp76mxafg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>Vuforia.Engine.VuforiaHoloLensMRTK_pzq3xp76mxafg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>Vuforia.Engine.VuforiaHoloLensMRTK</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=DefaultCompany</RegisteredPackagePublisher>
+    <RegisteredVersion>9.8.5.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\d\UnityProjects\VuforiaHololensTracking\App\build\bin\Win32\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-04-27T17:34:44.054</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\build\bin\Win32\Release\VuforiaHololensTracking.exe">
+      <PackagePath>VuforiaHololensTracking.exe</PackagePath>
+      <Modified>2021-04-27T17:34:43.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2019.4.22f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\x86\Release\UnityPlayer.winmd">
+      <PackagePath>UnityPlayer.winmd</PackagePath>
+      <Modified>2021-03-03T02:40:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2019.4.22f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\x86\Release\UnityPlayer.dll">
+      <PackagePath>UnityPlayer.dll</PackagePath>
+      <Modified>2021-03-03T02:40:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\build\bin\Win32\Release\VuforiaHololensTracking.winmd">
+      <PackagePath>VuforiaHololensTracking.winmd</PackagePath>
+      <Modified>2021-03-30T15:09:14.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T12:01:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:50:29.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:51:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:56:37.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:55:51.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:58:07.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:55:45.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:57:51.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:49:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:49:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:55:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:49:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:53:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:51:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:50:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:50:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:54:49.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:54:49.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T12:00:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T12:00:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:50:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:50:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:52:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:52:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:55:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:55:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:50:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:49:47.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:53:17.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:54:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:53:47.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:57:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T11:57:25.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-15T12:00:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\StoreManifest.xml">
+      <PackagePath>StoreManifest.xml</PackagePath>
+      <Modified>2021-04-27T17:32:44.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\mconfig\config.xml">
+      <PackagePath>Data\il2cpp_data\etc\mono\mconfig\config.xml</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\StreamingAssets\Vuforia\HL2TrackingDB.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\HL2TrackingDB.xml</PackagePath>
+      <Modified>2021-04-19T19:47:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\StreamingAssets\Vuforia\VuforiaMars_Images.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Images.xml</PackagePath>
+      <Modified>2021-03-15T11:55:41.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml</PackagePath>
+      <Modified>2021-03-15T11:52:29.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml</PackagePath>
+      <Modified>2021-03-15T11:59:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml</PackagePath>
+      <Modified>2021-03-15T11:51:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\StreamingAssets\Vuforia\Vuforia_Marslander_RZR_Toy360.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\Vuforia_Marslander_RZR_Toy360.xml</PackagePath>
+      <Modified>2021-03-15T12:01:29.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\boot.config">
+      <PackagePath>Data\boot.config</PackagePath>
+      <Modified>2021-04-27T17:34:09.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\2.0\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\machine.config</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\2.0\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\web.config</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\4.0\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\machine.config</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\4.0\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\web.config</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\4.5\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\machine.config</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\4.5\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\web.config</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\globalgamemanagers">
+      <PackagePath>Data\globalgamemanagers</PackagePath>
+      <Modified>2021-04-27T17:32:26.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\level0">
+      <PackagePath>Data\level0</PackagePath>
+      <Modified>2021-04-27T17:32:18.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\level1">
+      <PackagePath>Data\level1</PackagePath>
+      <Modified>2021-04-27T17:32:21.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\level2">
+      <PackagePath>Data\level2</PackagePath>
+      <Modified>2021-04-27T17:32:22.569</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\level3">
+      <PackagePath>Data\level3</PackagePath>
+      <Modified>2021-04-27T17:32:23.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\level4">
+      <PackagePath>Data\level4</PackagePath>
+      <Modified>2021-04-27T17:32:24.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\config">
+      <PackagePath>Data\il2cpp_data\etc\mono\config</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\Resources\unity default resources">
+      <PackagePath>Data\Resources\unity default resources</PackagePath>
+      <Modified>2021-03-03T01:51:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\Resources\unity_builtin_extra">
+      <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
+      <Modified>2021-04-27T17:32:38.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\globalgamemanagers.assets">
+      <PackagePath>Data\globalgamemanagers.assets</PackagePath>
+      <Modified>2021-04-27T17:32:27.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\resources.assets">
+      <PackagePath>Data\resources.assets</PackagePath>
+      <Modified>2021-04-27T17:32:28.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\sharedassets0.assets">
+      <PackagePath>Data\sharedassets0.assets</PackagePath>
+      <Modified>2021-04-27T17:32:35.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\sharedassets1.assets">
+      <PackagePath>Data\sharedassets1.assets</PackagePath>
+      <Modified>2021-04-27T17:32:35.709</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\sharedassets2.assets">
+      <PackagePath>Data\sharedassets2.assets</PackagePath>
+      <Modified>2021-04-27T17:32:36.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\sharedassets3.assets">
+      <PackagePath>Data\sharedassets3.assets</PackagePath>
+      <Modified>2021-04-27T17:32:36.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\sharedassets4.assets">
+      <PackagePath>Data\sharedassets4.assets</PackagePath>
+      <Modified>2021-04-27T17:32:36.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\globalgamemanagers.assets.resS">
+      <PackagePath>Data\globalgamemanagers.assets.resS</PackagePath>
+      <Modified>2021-04-27T17:32:27.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\resources.assets.resS">
+      <PackagePath>Data\resources.assets.resS</PackagePath>
+      <Modified>2021-04-27T17:32:28.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\sharedassets0.assets.resS">
+      <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
+      <Modified>2021-04-27T17:32:35.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\sharedassets1.assets.resS">
+      <PackagePath>Data\sharedassets1.assets.resS</PackagePath>
+      <Modified>2021-04-27T17:32:35.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\sharedassets2.assets.resS">
+      <PackagePath>Data\sharedassets2.assets.resS</PackagePath>
+      <Modified>2021-04-27T17:32:36.238</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\sharedassets3.assets.resS">
+      <PackagePath>Data\sharedassets3.assets.resS</PackagePath>
+      <Modified>2021-04-27T17:32:36.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\sharedassets4.assets.resS">
+      <PackagePath>Data\sharedassets4.assets.resS</PackagePath>
+      <Modified>2021-04-27T17:32:36.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\nativePlugins.txt">
+      <PackagePath>Data\nativePlugins.txt</PackagePath>
+      <Modified>2021-04-27T17:34:02.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\resources.resource">
+      <PackagePath>Data\resources.resource</PackagePath>
+      <Modified>2021-04-27T17:32:28.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\sharedassets0.resource">
+      <PackagePath>Data\sharedassets0.resource</PackagePath>
+      <Modified>2021-04-27T17:32:35.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\sharedassets1.resource">
+      <PackagePath>Data\sharedassets1.resource</PackagePath>
+      <Modified>2021-04-27T17:32:35.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\sharedassets2.resource">
+      <PackagePath>Data\sharedassets2.resource</PackagePath>
+      <Modified>2021-04-27T17:32:36.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\browscap.ini">
+      <PackagePath>Data\il2cpp_data\etc\mono\browscap.ini</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\2.0\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\settings.map</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\4.0\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\settings.map</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\4.5\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\settings.map</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser</PackagePath>
+      <Modified>2021-03-03T02:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\Metadata\global-metadata.dat">
+      <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
+      <Modified>2021-04-27T17:33:55.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
+      <PackagePath>Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat</PackagePath>
+      <Modified>2021-04-27T17:33:03.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
+      <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
+      <Modified>2021-04-27T17:33:03.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\StreamingAssets\Vuforia\HL2TrackingDB.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\HL2TrackingDB.dat</PackagePath>
+      <Modified>2021-04-19T19:47:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat</PackagePath>
+      <Modified>2021-03-15T12:01:33.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.dat</PackagePath>
+      <Modified>2021-03-15T12:01:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\StreamingAssets\Vuforia\VuforiaMars_Object_OT.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Object_OT.dat</PackagePath>
+      <Modified>2021-03-15T11:53:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\StreamingAssets\Vuforia\VuforiaMars_VuMark.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_VuMark.dat</PackagePath>
+      <Modified>2021-03-15T12:01:13.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\StreamingAssets\Vuforia\Vuforia_Marslander_RZR_Toy360.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\Vuforia_Marslander_RZR_Toy360.dat</PackagePath>
+      <Modified>2021-03-15T11:59:29.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Data\UnitySubsystems\WindowsMRXRSDK\UnitySubsystemsManifest.json">
+      <PackagePath>Data\UnitySubsystems\WindowsMRXRSDK\UnitySubsystemsManifest.json</PackagePath>
+      <Modified>2020-10-07T21:32:07.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\VuforiaWrapper.dll">
+      <PackagePath>VuforiaWrapper.dll</PackagePath>
+      <Modified>2021-03-24T13:42:46.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\WindowsMRXRSDK.dll">
+      <PackagePath>WindowsMRXRSDK.dll</PackagePath>
+      <Modified>2020-10-07T21:32:07.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\Vuforia.dll">
+      <PackagePath>Vuforia.dll</PackagePath>
+      <Modified>2021-03-24T13:42:46.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\VuforiaHololensTracking\AudioPluginMsHRTF.dll">
+      <PackagePath>AudioPluginMsHRTF.dll</PackagePath>
+      <Modified>2020-10-07T21:32:07.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\build\bin\Win32\Release\GameAssembly.dll">
+      <PackagePath>GameAssembly.dll</PackagePath>
+      <Modified>2021-04-27T17:34:40.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\d\UnityProjects\VuforiaHololensTracking\App\build\bin\Win32\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-04-27T17:34:43.906</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

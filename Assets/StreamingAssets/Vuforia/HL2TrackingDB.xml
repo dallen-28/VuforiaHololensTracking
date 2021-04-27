@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Stones2" size="0.108000 0.072000" />
+    <ImageTarget name="VuforiaTargets-3-small" size="0.100000 0.073497" />
+    <ImageTarget name="Stones" size="0.279000 0.195300" />
+    <CylinderTarget name="TestCylinder3" sideLength="0.050000"/>
+    <CylinderTarget name="TestCylinder2" sideLength="0.050000"/>
+    <CylinderTarget name="TestCylinder" sideLength="0.050000"/>
+  </Tracking>
+</QCARConfig>
